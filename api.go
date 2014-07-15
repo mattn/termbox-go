@@ -2,11 +2,13 @@
 
 package termbox
 
-import "fmt"
-import "os"
-import "os/signal"
-import "syscall"
-import "runtime"
+import (
+	"fmt"
+	"os"
+	"os/signal"
+	"runtime"
+	"syscall"
+)
 
 // public API
 

@@ -3,7 +3,9 @@
 
 package termbox
 
-import "syscall"
+import (
+	"syscall"
+)
 
 type syscall_Termios syscall.Termios
 
